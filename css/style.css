@@ -1,0 +1,69 @@
+*{
+  box-sizing:border-box;
+}
+
+/* Colors*/
+header{
+  background-color:white;
+  color:#000;
+}
+aside{
+  background-color:white;
+}
+main{
+  background-color:white;
+}
+footer{
+  background-color:blue;
+}
+ul{
+  color:#818181
+}
+
+/* Layout*/
+header{
+  width:100%;
+}
+aside{
+  width:40%;
+}
+main{
+  width:60%;
+}
+footer{
+  display:block;
+  clear:both;
+  height:250px;
+  font:arial;
+}
+.logo{
+  width:20%;
+  }
+  .page-footer{
+    float:left;
+    padding:30px;
+  }
+  .site-footer{
+    margin-top:25px;
+    margin-left:170px;
+    margin-right:auto;
+    width:100%;
+  }
+  ul{
+    margin:20px;
+    padding:20px;
+    overflow:hidden;
+    border-top:1px solid;
+    border-bottom:1px solid;
+    width:100%;
+
+  }
+  li{
+    float:left;
+    padding:10px;
+    display:block;
+    margin-left:35px;
+  }
+.head{
+  margin-left:80px;
+}
